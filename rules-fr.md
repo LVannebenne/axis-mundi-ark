@@ -29,11 +29,14 @@ Axis Mundi (anciennement Jurassic world) sont deux serveurs Ark PvPvE, Ragnarok 
 - Les notes d'explorateurs doivent rester accessibles à tout le monde.
 - Les constructions dans les grottes sont autorisées à moins que la grotte ne contienne un artefact ou des items PvE.
 - L'usure des bâtiments est actif sur Ragnarok et les dinosaures seront à nouveau apprivoisable au bout d'un certains temps :
--- 4 jours pour les structures en pailles
--- 8 jours pour les structures en bois, les serres et les dinosaures (ils deviennent réaprivoisable par d'autres joueurs).
--- 12 jours pour les structures en pierre.
--- 15 jours les structures en métal.
--- 18 jours les structures tek.
+
+| Jours   | Structure tier                 |
+|---------|--------------------------------|
+| 4       | Paille                         |
+| 8       | Bois, Verre et les dinosaures  |
+| 12      | Pierre                         |
+| 15      | Métal                          |
+| 20      | Tek                            |
 
 ### PVP (Une fois par semaine le vendredi soir de 20h à minuit). 
 

@@ -29,11 +29,14 @@ Axis Mundi (formerly Jurassic World) are two PvPvE ark server. Ragnarok is the m
 - Explorers' notes must remain accessible to everyone.
 - Building in cave is allowed as long as there is nothing of value in it (PVE items or loot spawn).
 - Decay is active on Ragnarok and dinosaurs will be re-tameable over time :
--- 4 days thatch tier structures
--- 8 days wood tier, greenhouse tier, and all dinosaures are re-tamable.
--- 12 days stone tier.
--- 15 days metal tier.
--- 20 days tek tier.
+
+| Days    | Structure tier                 |
+|---------|--------------------------------|
+| 4       | Thatch                         |
+| 8       | Wood, greenhouses & dinos      |
+| 12      | Stone                          |
+| 15      | Metal                          |
+| 20      | Tek                            |
 
 ### PVP (Once a week on Friday evening from 8pm to midnight). 
 
