@@ -19,4 +19,8 @@ Our servers uses mods to slightly rebalance the game as we like:
 | HG Stacks       | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=849372965) ) |
 | Structures plus | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=731604991) ) |
 
+## Rules
 
+They are disponible in two languages : 
+[Français](rules-fr.md)
+[English](rules-en.md)
