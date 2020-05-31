@@ -6,7 +6,7 @@ Axis Mundi (formerly Jurassic World) are two PvPvE ark server. Ragnarok is the m
 
 ## Mods
 
-[Show active mods on our servers] (https://steamcommunity.com/sharedfiles/filedetails/?id=2113358270)
+[Show active mods on our servers](https://steamcommunity.com/sharedfiles/filedetails/?id=2113358270)
 
 ## Rules
 
