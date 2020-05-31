@@ -22,5 +22,5 @@ Our servers uses mods to slightly rebalance the game as we like:
 ## Rules
 
 They are disponible in two languages : 
-[Français](rules-fr.md)
-[English](rules-en.md)
+* [Français](rules-fr.md)
+* [English](rules-en.md)
