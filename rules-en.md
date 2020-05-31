@@ -1,6 +1,6 @@
 # [FR][EU] Axis Mundi 
 
-## Description : 
+## Description
 
 Axis Mundi (formerly Jurassic World) are two PvPvE ark server. Ragnarok is the main map and the second server will be there to discover other maps through time (the map "The Island" is currently active on it).
 
