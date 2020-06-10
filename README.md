@@ -12,15 +12,17 @@ Our servers uses mods to slightly rebalance the game as we like:
 
 [Complete mods collection](https://steamcommunity.com/sharedfiles/filedetails/?id=2113358270)
 
-| Name            | Link                                                                          |
-|-----------------|-------------------------------------------------------------------------------|
-| Classic flyers  | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=895711211) ) |
-| Spyglass        | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1808536179) )|
-| HG Stacks       | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=849372965) ) |
-| Structures plus | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=731604991) ) |
+| Name            | Link                                                                            |
+|-----------------|---------------------------------------------------------------------------------|
+| Classic flyers  | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=895711211) )   |
+| Spyglass        | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1808536179) )  |
+| Dino Stat Reset | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=835065275) )   |
+| HG Stacks       | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=849372965) )   |
+| Super Spyglass  | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=793605978) )   |
+| CKFR            | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1814953878) )  |
 
 ## Rules
 
-They are disponible in two languages : 
+They are availables in two languages : 
 * [Français](rules-fr.md)
 * [English](rules-en.md)
