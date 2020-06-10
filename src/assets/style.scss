@@ -1,0 +1,107 @@
+
+// Variables
+
+$black: #000;
+$white: #FFF;
+$dark: #222;
+$light: #EEE;
+
+// Fonts
+
+@use './styles/fonts';
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;
+}
+
+
+body {
+    background-color: $dark;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;
+}
+
+.main-background {
+    background-color: $dark;
+    color: $light;
+    display: flex;
+    flex-direction: column;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none;
+}
+
+#header {
+    background-color: $dark;
+    background-image: url(./images/Axis-mundi.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: local;
+    background-position-x: center;
+    background-position-y: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    bottom: 30%;
+    transition: 0.2s;
+    z-index: 1000;
+}
+
+#header:hover {
+    cursor: url(./images/arrow-alt-circle-down-regular.svg) 1 30;
+}
+
+#home, #rules {
+    position: relative;
+    margin: 0 10%;
+    margin-top: 35rem;
+    font-size: 2rem; 
+    font-family: 'cinzel'; 
+
+
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: 'urban';
+
+    li {
+        padding: 1rem;
+        margin-top: 3rem;
+        transform: rotate(45deg);
+        list-style: none;
+        border: 0.1rem solid $light;
+        border-radius: 25%;
+    }
+
+    a {
+        color: $light;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: cyan;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+
+}
