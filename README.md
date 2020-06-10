@@ -20,9 +20,10 @@ Our servers uses mods to slightly rebalance the game as we like:
 | HG Stacks       | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=849372965) )   |
 | Super Spyglass  | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=793605978) )   |
 | CKFR            | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1814953878) )  |
+| Structures plus | ( [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=731604991) )   |
 
 ## Rules
 
-They are availables in two languages : 
+They are available in two languages : 
 * [Français](rules-fr.md)
 * [English](rules-en.md)
