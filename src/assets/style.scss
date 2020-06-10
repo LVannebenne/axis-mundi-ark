@@ -45,7 +45,7 @@ body {
 
 #title {
     display: none;
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 #header {
@@ -74,25 +74,26 @@ body {
     position: relative;
     margin: 0 10%;
     margin-top: 30rem;
-    font-size: 2rem; 
+    font-size: 2.5vw; 
     font-family: 'cinzel'; 
 }
 
 nav {
-    padding: 15px;
+    padding: 1vw;
     position: relative;
     font-family: Roboto, sans-serif; 
     display: flex;
     flex-direction: row;
     margin: auto;
     border-color: red;
+    font-size: 1.5vw;
     ul {
         display: flex;
         margin: auto;
         padding-inline-start: 0;
     }
     li {
-        padding: 0.5rem 2rem;
+        padding: 1vw 3vw;
         list-style: none;
     }
     li:not(:last-child){
