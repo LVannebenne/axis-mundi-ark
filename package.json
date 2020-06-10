@@ -1,0 +1,40 @@
+{
+  "name": "axis-mundi-ark",
+  "version": "1.0.0",
+  "description": "Mini website for Axis Mundi Ark Cluster",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "start": "parcel ./src/index.html -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LVannebenne/axis-mundi-ark.git"
+  },
+  "keywords": [
+    "Ark",
+    "server",
+    "cluster"
+  ],
+  "author": "Lindsay Vannebenne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LVannebenne/axis-mundi-ark/issues"
+  },
+  "homepage": "https://github.com/LVannebenne/axis-mundi-ark#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "parcel": "^1.12.4",
+    "pixi.js": "^5.2.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
