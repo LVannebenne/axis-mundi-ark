@@ -6,7 +6,6 @@ class Home extends Component {
   render () {
     return (
         <div id="home">
-            <h1>Ark:SE Cluster</h1>
             <h4>PvE + Scheduled PvP + Events</h4>
 
             <p>Minim elit qui laboris elit occaecat enim ipsum nostrud nisi qui mollit sint aliquip. Aliquip consequat deserunt esse consectetur deserunt est. Aute aliqua nisi deserunt in Lorem quis elit id eiusmod eiusmod elit voluptate eiusmod. Qui fugiat tempor ipsum do adipisicing et sunt sunt ad ex enim aliqua eu est.</p>

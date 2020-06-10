@@ -16,6 +16,7 @@ $light: #EEE;
 
 * {
     -ms-overflow-style: none;
+    // border: 0.1px solid white;
 }
 
 
@@ -42,6 +43,11 @@ body {
     -ms-overflow-style: none;
 }
 
+#title {
+    display: none;
+    font-size: 3rem;
+}
+
 #header {
     background-color: $dark;
     background-image: url(./images/Axis-mundi.png);
@@ -50,12 +56,14 @@ body {
     background-attachment: local;
     background-position-x: center;
     background-position-y: center;
-    position: fixed;
-    top: 0;
+    position: relative;
     width: 100%;
-    bottom: 30%;
-    transition: 0.2s;
+    height: 100vh;
+    transition: 0.5s;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 #header:hover {
@@ -65,26 +73,30 @@ body {
 #home, #rules {
     position: relative;
     margin: 0 10%;
-    margin-top: 35rem;
+    margin-top: 30rem;
     font-size: 2rem; 
     font-family: 'cinzel'; 
-
-
 }
 
 nav {
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-family: 'urban';
-
+    padding: 15px;
+    position: relative;
+    font-family: Roboto, sans-serif; 
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-color: red;
+    ul {
+        display: flex;
+        margin: auto;
+        padding-inline-start: 0;
+    }
     li {
-        padding: 1rem;
-        margin-top: 3rem;
-        transform: rotate(45deg);
+        padding: 0.5rem 2rem;
         list-style: none;
-        border: 0.1rem solid $light;
-        border-radius: 25%;
+    }
+    li:not(:last-child){
+        border-right: 1px solid white;
     }
 
     a {
@@ -103,5 +115,5 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     text-align: justify;
-
+    font-family: Roboto, sans-serif; 
 }

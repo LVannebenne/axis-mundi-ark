@@ -5,7 +5,7 @@ import { Route } from 'react-router-dom'
 class Nav extends Component {
   render () {
     return (
-        <nav>
+        <nav id="nav">
             <ul>
               <li>
                 <a href="/">Home</a>

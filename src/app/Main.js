@@ -12,9 +12,9 @@ class Main extends Component {
     return (
       <div className="wrapper main-background">
         <header id="header" >
-          <Nav />
+          <h1 id="title">ARK Survival Evolved Servers Cluster</h1>
         </header>
-
+        <Nav />
         <Route exact={true} path="/" component={Home}/>
         {/* <Route path="/about" component={About}/> */}
         {/* <Route path="/contact" component={Contact}/> */}

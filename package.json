@@ -4,8 +4,8 @@
   "description": "Mini website for Axis Mundi Ark Cluster",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build ./src/index.html",
-    "start": "parcel ./src/index.html -p 8080",
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,8 +34,15 @@
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-react": "^7.0.0"
   },
   "devDependencies": {
+    "@becode/eslint-config": "^0.5.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-unicorn": "^10.0.0",
+    "prettier": "^1.18.2"
   }
 }

@@ -8,7 +8,7 @@ logs
 **/*.backup.*
 **/*.back.*
 .cache
-assets
+./assets
 
 node_modules
 bower_components
