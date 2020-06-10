@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 
-import Main from './App/Main'
+import Main from './Main'
 import './assets/style.scss'
 import * as PIXI from 'pixi.js'
 import { ScrollFunction } from './functions'

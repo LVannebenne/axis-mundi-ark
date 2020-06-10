@@ -24,17 +24,18 @@
   },
   "homepage": "https://github.com/LVannebenne/axis-mundi-ark#readme",
   "dependencies": {
-    "node-sass": "^4.14.1",
-    "parcel": "^1.12.4",
-    "pixi.js": "^5.2.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "parcel-bundler": "^1.12.4",
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0"
+    "@babel/preset-react": "^7.0.0",
+    "node-sass": "^4.14.1",
+    "pages": "0.0.16",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "pixi.js": "^5.2.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@becode/eslint-config": "^0.5.2",
