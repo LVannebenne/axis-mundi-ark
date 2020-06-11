@@ -1,7 +1,7 @@
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollHeaderFunction()};
 
-function scrollFunction() {
+function scrollHeaderFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("header").style.height = "25vh";
     document.getElementById("header").style.backgroundPositionX = "left";
@@ -16,4 +16,16 @@ function scrollFunction() {
     document.getElementById("header").style.backgroundPositionX = "center";
     document.getElementById("nav").style.display = "none";
   }
+}
+var elmntTo = document.getElementById("scroll");
+
+
+var el = document.getElementById("header")
+if ( el ) { 
+  el.addEventListener(
+    'onclick', 
+    () => {
+      elmntTo.scrollIntoView(); 
+    }
+  )
 }

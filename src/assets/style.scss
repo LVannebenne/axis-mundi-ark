@@ -3,7 +3,7 @@
 
 $black: #000;
 $white: #FFF;
-$dark: #222;
+$dark: #010;
 $light: #EEE;
 
 // Fonts
@@ -34,6 +34,9 @@ body {
 
 .main-background {
     background-color: $dark;
+    background-image: url('https://external-preview.redd.it/Tf2MC-orVRAI8OL5tjyF4k4H2Q6QLHTWllekGfqdt3c.png?width=960&crop=smart&auto=webp&s=be4ab9a2fa3ca2f7011799377f118a8dbc64aacb');
+    background-size: contain;
+    background-attachment: fixed;
     color: $light;
     display: flex;
     flex-direction: column;
@@ -41,6 +44,15 @@ body {
         display: none;
     }
     -ms-overflow-style: none;
+}
+
+canvas {
+    position: fixed;
+    z-index: 1;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(1px);
 }
 
 #title {
@@ -70,12 +82,31 @@ body {
     cursor: url(./images/arrow-alt-circle-down-regular.svg) 1 30;
 }
 
-#home, #rules {
+#home, .rules {
     position: relative;
     margin: 0 10%;
     margin-top: 30rem;
+    z-index: 2;
+}
+
+#home {
     font-size: 2.5vw; 
     font-family: 'cinzel'; 
+}
+
+.rules {
+    font-size: 1.5vw;
+    font-family: roboto;
+    h1,h2,h3,h4 {
+        margin-top: 5vw;
+    }
+    ul{
+        li{
+            padding-top: 1vh;
+            padding-inline-start: 20px;
+            list-style-type: "\2714";
+        }
+    }
 }
 
 nav {
@@ -117,4 +148,13 @@ h1, h2, h3, h4, h5, h6 {
 p {
     text-align: justify;
     font-family: Roboto, sans-serif; 
+}
+
+a, a:hover, a:link, a:visited, a:active {
+    color: $light;
+}
+
+a:hover {
+    filter: blur(1px);
+    color: cyan;
 }
