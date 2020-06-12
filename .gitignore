@@ -12,7 +12,12 @@ logs
 
 node_modules
 bower_components
-dist
+dist/*.html
+dist/*.css
+dist/*.svg
+dist/*.png
+dist/*.js
+dist/*.map
 
 *.sublime*
 
