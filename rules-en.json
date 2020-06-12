@@ -1,0 +1,126 @@
+{
+  "components":[
+    {
+      "type":"title",
+      "content":{
+        "text":"[FR][EU] Axis Mundi",
+        "level":1
+      }
+    },
+    {
+      "type":"title",
+      "content":{
+        "text":"Description",
+        "level":2
+      }
+    },
+    {
+      "type":"paragraph",
+      "content":{
+        "text":"Axis Mundi (formerly Jurassic World) are two PvPvE ark server. Ragnarok is the main map and the second server will be there to discover other maps through time (the map 'The Island' is currently active on it)."
+      }
+    },
+    {
+      "type":"title",
+      "content":{
+        "text":"Mods",
+        "level":2
+      }
+    },
+    {
+      "type":"link",
+      "content":{
+        "label":"Show active mods on our servers",
+        "url":"https://steamcommunity.com/sharedfiles/filedetails/?id=2113358270",
+        "target":"_blank"
+      }
+    },
+    {
+      "type":"title",
+      "content":{
+        "text":"Rules",
+        "level":2
+      }
+    },
+    {
+      "type":"title",
+      "content":{
+        "text":"Tchat",
+        "level":3
+      }
+    },
+    {
+      "type":"list",
+      "content":[
+        "Being an EU server please be tolerant towards each other. Don't expect everyone to speak your language.",
+        "Please be polite in your interactions.",
+        "Do not spam any tchat especially the general one.",
+        "Please use private messages, local, tribe and alliance chats as much as possible."
+      ]
+    },
+    {
+      "type":"title",
+      "content":{
+        "text":"Tribe",
+        "level":3
+      }
+    },
+    {
+      "type":"list",
+      "content":[
+        "A maximum of 15 people per tribe is allowed."
+      ]
+    },
+    {
+      "type":"title",
+      "content":{
+        "text":"Construction",
+        "level":3
+      }
+    },
+    {
+      "type":"list",
+      "content":[
+        "One main base and 4 6x6 outposts are allowed (temporary outposts don't count, but must be destroyed after the attack).",
+        "Your main base must be build on Ragnarok.",
+        "Building on ressources spot is not allowed.",
+        "Explorers' notes must remain accessible to everyone.",
+        "Building in cave is allowed as long as there is nothing of value in it (PVE items or loot spawn).",
+        "Decay is active on Ragnarok and dinosaurs will be re-tameable over time :"
+      ]
+    },
+    {
+      "type":"table",
+      "content": {
+        "labels":["Days","Structure tier"],
+        "columns": {
+          "1":[4,8,12,15,20],
+          "2":[
+            "Thatch",
+            "Wood, greenhouses & dinos",
+            "Stone",
+            "Metal",
+            "Tek"
+          ]
+        }   
+      }
+    },
+    {
+      "type":"title",
+      "content":{
+        "text":"PVP (Once a week on Friday evening from 8pm to midnight).",
+        "level":3
+      }
+    },
+    {
+      "type":"list",
+      "content":[
+        "New players will be immunized on the first two PvP nights unless they wish (and ask a staff member) to participate and so, lose their immunity.",
+        "To be allowed to participate during the weekly PvP session : players/tribes must be active on the server. If you plan to log in once a week only to PvP you will have to find players doing the same to play with.",
+        "Do not wipe entierly a base.",
+        "During a raid don't throw down items you can't carry.",
+        "Farming dinosaures set in passive must not be killed, PvP dinosaurs such as carnivors can be killed except for breeding dinosaurs."
+      ]
+    }
+  ]
+}

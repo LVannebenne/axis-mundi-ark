@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import { Route, useParams } from 'react-router-dom'
 import RulesFr from '../rules-fr.json'
+import RulesEn from '../rules-en.json'
 
 // import About from './pages/About'
 import Nav from './pages/Nav'
@@ -22,6 +23,9 @@ class Main extends Component {
         <Route exact={true} path="/" component={Home}/>
         <Route path="/rules/fr" > 
           <Rules content={RulesFr} />
+        </Route>
+        <Route path="/rules/en" > 
+          <Rules content={RulesEn} />
         </Route>
         {/* <Route path="/portfolio" component={Portfolio}/> */}
       </div>

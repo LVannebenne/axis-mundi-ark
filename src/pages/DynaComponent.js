@@ -4,7 +4,7 @@ import { Route, useParams } from 'react-router-dom'
 
 function DynaComponent(props) {
     return (
-        <div>
+        <div className='component'>
         {renderDyna(props.data.type, props.data.content)}
         </div>
         )

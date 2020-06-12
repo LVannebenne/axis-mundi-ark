@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollHeaderFunction()};
 
 function scrollHeaderFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     document.getElementById("header").style.height = "25vh";
     document.getElementById("header").style.backgroundPositionX = "left";
     document.getElementById("header").style.position = "fixed";
