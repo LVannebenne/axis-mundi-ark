@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import { Route, useParams } from 'react-router-dom'
 
+var titleCounter = 0;
+
 function DynaComponent(props) {
     return (
         <div className='component'>
@@ -17,10 +19,12 @@ function UcFirst(str) {
 function renderDyna(type, content) {
     switch (type) {
         case "title":
-            return <Title text={content.text} level={content.level}/>
+            content.level == 3 ? titleCounter++ : null
+            return <Title className={content.className ?? ''} text={(content.level == 3 ? titleCounter.toString() + '. ' : '') + content.text} level={content.level} />
             break;
         case "paragraph":
-            return <p>{content.text}</p>
+            console.log(content)
+            return <p className={content.className ?? ''}>{content.text}</p>
         case "link":
             return <a href={content.url} target={content.target}>{content.label}</a>
         case "list":
@@ -36,7 +40,7 @@ function renderDyna(type, content) {
 function Title(props) {
     let Level = `h${props.level.toString()}`
     return (
-        <Level>{props.text}</Level>
+        <Level className={props.className}>{props.text}</Level>
     )
 }
 

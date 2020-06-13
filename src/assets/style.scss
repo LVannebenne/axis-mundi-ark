@@ -2,8 +2,9 @@
 
 $black: #000;
 $white: #FFF;
-$dark: rgb(0, 17, 0);
-$dark-trans: rgba(0, 17, 0, 0.8);
+$dark: rgb(1, 49, 1);
+$grad2: rgb(49, 1, 1);
+$dark-trans: rgba(1, 49, 1, 0.8);
 $light: #EEE;
 
 // Fonts
@@ -17,6 +18,7 @@ $light: #EEE;
 * {
     -ms-overflow-style: none;
     font-size: 62.5%;
+    font-family: 'Work Sans', sans-serif;
     // border: 0.1px solid white;
 }
 
@@ -59,8 +61,6 @@ canvas {
     filter: blur(1px);
 }
 
-
-
 #header {
     background: $dark;
     position: relative;
@@ -72,7 +72,7 @@ canvas {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'urban';
+    background: linear-gradient(to right,#021707,#005C65,#030300);
 }
 
 #header:hover {
@@ -107,6 +107,7 @@ canvas {
     h3,
     h4 {
         font-size: 3rem;
+        font-family: 'Archivo Black', sans-serif;
     }
     p {
         font-size: 2rem;
@@ -119,11 +120,11 @@ canvas {
 }
 
 #home {
-    font-family: 'cinzel';
+    font-family: 'Work Sans', sans-serif;
 }
 
 .rules {
-    font-family: roboto;
+    font-family: 'Work Sans', sans-serif;
     h1,
     h2,
     h3,
@@ -144,8 +145,6 @@ canvas {
 .component {
     padding: 1rem;
     display: block;
-    transition: background-color 2s ease-in-out;
-
     a,
     a:hover,
     a:link,
@@ -157,13 +156,13 @@ canvas {
     }
 }
 
-.component:hover {
-    background-color: $dark-trans;
+.left {
+    text-align: left;
 }
 
 nav {
     position: fixed;
-    font-family: Roboto, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -180,6 +179,7 @@ nav {
     li {
         padding: 0 3vw;
         list-style: none;
+        font-size: 2rem;
     }
 
     li:not(:last-child) {
@@ -203,11 +203,16 @@ h4,
 h5,
 h6 {
     text-align: center;
+    border-bottom: 0.1rem solid white;
+}
+
+.no-border{
+    border: 0;
 }
 
 p {
     text-align: justify;
-    font-family: Roboto, sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 a,
@@ -258,6 +263,26 @@ a:hover {
 .flex-table-cell-header,
 .flex-table-cell {
     padding: 1rem 2rem;
+}
+
+@mixin flag-icon {
+    padding-right: 1rem;
+    position: relative;
+    top: 2rem;
+    left: -3rem;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.flag-fr::before {
+    @include flag-icon();
+    content: url(https://discordapp.com/assets/c1a36c711f0ae0ab46c7dce06f63a723.svg);
+}
+
+.flag-en::before {
+    @include flag-icon();
+    content: url(https://discordapp.com/assets/d788b9231ed2028dc29245f76cf0a415.svg);
 }
 
 @media screen and (max-width: 768px) and (min-width: 596px)  {

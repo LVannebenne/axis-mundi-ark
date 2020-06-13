@@ -1,0 +1,90 @@
+{
+    "components":[
+      {
+        "type":"title",
+        "content":{
+          "className":"no-border",
+          "text":"[FR][EU] Axis Mundi",
+          "level":1
+        }
+      },
+      {
+        "type":"title",
+        "content":{
+          "text":"PvE + Scheduled PvP + Events",
+          "level":2
+        }
+      },
+      {
+        "type":"paragraph",
+        "content":{
+          "className":"flag-fr",
+          "text":"Axis Mundi (anciennement Jurassic world) sont deux serveurs Ark PvPvE connectés en un cluster, Ragnarok est la carte principale et le second serveur est là pour découvrir d'autres cartes à travers le temps (la carte 'The Island' est active dessus actuellement)."
+        }
+      },
+      {
+        "type":"paragraph",
+        "content":{
+          "className":"flag-en",
+          "text":"Axis Mundi (formerly Jurassic World) are two PvPvE ark server. Ragnarok is the main map and the second server will be there to discover other maps through time (the map 'The Island' is currently active on it)."
+        }
+      },
+      {
+        "type":"title",
+        "content":{
+          "text":"Mods",
+          "level":2
+        }
+      },
+      {
+        "type":"link",
+        "content":{
+          "label":"Voir les Mods actifs sur le serveur",
+          "url":"https://steamcommunity.com/sharedfiles/filedetails/?id=2113358270",
+          "target":"_blank"
+        }
+      },
+      {
+        "type":"link",
+        "content":{
+          "label":"Show active mods collection",
+          "url":"https://steamcommunity.com/sharedfiles/filedetails/?id=2113358270",
+          "target":"_blank"
+        }
+      },
+      {
+        "type":"title",
+        "content":{
+          "text":"Events / Évènements",
+          "level":2
+        }
+      },
+      {
+        "type":"paragraph",
+        "content":{
+          "className":"flag-fr",
+          "text":"Plusieurs types d'évènements sont prévus sur le serveur et nous sommes ouverts au suggestions. N'hésitez pas a contacter le staff sur Discord."
+        }
+      },
+      {
+        "type":"paragraph",
+        "content":{
+          "className":"flag-en",
+          "text":"Several types of events are planned on the server and we are open to suggestions. Don't hesitate to tell us on Discord."
+        }
+      },
+      {
+        "type":"table",
+        "content": {
+          "labels":["FR","EN"],
+          "lines": [
+            ["Chasse au dino","Dino hunting"],
+            ["Evenement Dino Colorés","DinoColor event"],
+            ["PVP planifié","Scheduled PVP"],
+            ["Capture du drapeau","Capture the flag"],
+            ["Taux serveur boostés","Boosted server rates"]
+          ]     
+        }
+      }
+    ]
+}

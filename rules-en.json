@@ -3,36 +3,9 @@
     {
       "type":"title",
       "content":{
+        "className":"no-border",
         "text":"[FR][EU] Axis Mundi",
         "level":1
-      }
-    },
-    {
-      "type":"title",
-      "content":{
-        "text":"Description",
-        "level":2
-      }
-    },
-    {
-      "type":"paragraph",
-      "content":{
-        "text":"Axis Mundi (formerly Jurassic World) are two PvPvE ark server. Ragnarok is the main map and the second server will be there to discover other maps through time (the map 'The Island' is currently active on it)."
-      }
-    },
-    {
-      "type":"title",
-      "content":{
-        "text":"Mods",
-        "level":2
-      }
-    },
-    {
-      "type":"link",
-      "content":{
-        "label":"Show active mods on our servers",
-        "url":"https://steamcommunity.com/sharedfiles/filedetails/?id=2113358270",
-        "target":"_blank"
       }
     },
     {

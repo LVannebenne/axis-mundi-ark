@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { Route, useParams } from 'react-router-dom'
 import RulesFr from '../rules-fr.json'
 import RulesEn from '../rules-en.json'
+import HomeMulti from '../home-multi.json'
 
 // import About from './pages/About'
 import Nav from './pages/Nav'
@@ -17,11 +18,13 @@ class Main extends Component {
         <canvas id="canvas"></canvas>
         <header id="header" >
           <div id="logo"></div>
-          <h1 id="title">ARK Survival Evolved Servers Cluster</h1>
+          <h1 id="title" className='no-border'>ARK Survival Evolved Servers Cluster</h1>
         </header>
         
         <Nav />
-        <Route exact={true} path="/" component={Home}/>
+        <Route exact={true} path="/" >
+          <Home content={HomeMulti} />
+        </Route>
         <Route path="/rules/fr" > 
           <Rules content={RulesFr} />
         </Route>
