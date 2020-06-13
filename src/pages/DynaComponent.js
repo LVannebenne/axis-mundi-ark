@@ -25,6 +25,8 @@ function renderDyna(type, content) {
             return <a href={content.url} target={content.target}>{content.label}</a>
         case "list":
             return <List data={content} />
+        case "table":
+            return <Table data={content} />
         default:
             
             break;
@@ -47,6 +49,38 @@ function List(props) {
                 })
             }
         </ul>
+    )
+}
+function Table(props) {
+    return (
+        <div className="flex-table">
+            <div className="flex-table-header">
+            {
+                props.data.labels.map((label, key) => {
+                    return <div className="flex-table-cell-header" key={key}>{label}</div>
+                })
+            }
+            </div>
+            <div className="flex-table-body">
+            {
+                props.data.lines.map((line, key) => {
+                    return <Line data={line} key={key} />
+                })
+            }
+            </div>
+        </div>
+    )
+}
+
+function Line(props) {
+    return (
+        <div className="flex-table-line">
+            {
+                props.data.map((cell, key) => {
+                    return <div className="flex-table-cell" key={key}>{cell}</div>
+                })
+            }
+        </div>
     )
 }
 

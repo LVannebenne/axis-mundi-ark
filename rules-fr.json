@@ -93,16 +93,13 @@
       "type":"table",
       "content": {
         "labels":["Jours","Structure tier"],
-        "columns": {
-          "1":[4,8,12,15,20],
-          "2":[
-            "Paille",
-            "Bois, Verre et les dinosaures",
-            "Pierre",
-            "Métal",
-            "Tek"
-          ]
-        }   
+        "lines": [
+          [4,"Paille"],
+          [8,"Bois, Verre et les dinosaures"],
+          [12,"Pierre"],
+          [15,"Métal"],
+          [20,"Tek"]
+        ]     
       }
     },
     {

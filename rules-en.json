@@ -93,16 +93,13 @@
       "type":"table",
       "content": {
         "labels":["Days","Structure tier"],
-        "columns": {
-          "1":[4,8,12,15,20],
-          "2":[
-            "Thatch",
-            "Wood, greenhouses & dinos",
-            "Stone",
-            "Metal",
-            "Tek"
-          ]
-        }   
+        "lines": [
+          [4,"Thatch"],
+          [8,"Wood, greenhouses & dinos"],
+          [12,"Stone"],
+          [15,"Metal"],
+          [20,"Tek"]
+        ]   
       }
     },
     {

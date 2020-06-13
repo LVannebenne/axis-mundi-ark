@@ -16,6 +16,9 @@ class Nav extends Component {
               <li>
                 <a href="/rules/en">Rules</a>
               </li>
+              <li>
+                <a href="https://discord.gg/nySUP7k" target="_blank">Discord</a>
+              </li>
 
             </ul>
         </nav>

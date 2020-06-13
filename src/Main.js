@@ -16,9 +16,10 @@ class Main extends Component {
       <div className="wrapper main-background">
         <canvas id="canvas"></canvas>
         <header id="header" >
+          <div id="logo"></div>
           <h1 id="title">ARK Survival Evolved Servers Cluster</h1>
         </header>
-        <div id="scroll"></div>
+        
         <Nav />
         <Route exact={true} path="/" component={Home}/>
         <Route path="/rules/fr" > 
@@ -27,7 +28,7 @@ class Main extends Component {
         <Route path="/rules/en" > 
           <Rules content={RulesEn} />
         </Route>
-        {/* <Route path="/portfolio" component={Portfolio}/> */}
+        {/* <Route path="/portfolio" component={Portfolio}/> */}<div id="scroll"></div>
       </div>
     )
   }
